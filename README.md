@@ -1,1 +1,3 @@
 # LA-Hacks-2017
+
+This is a group project built by Haoqing Dong, Muchen Liu, Shiqi Wang and ....
