@@ -3,6 +3,11 @@
     color: #fd5c63;
 }
 
+.navbar {
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+
 .form-control {
     border-radius: 0px;
     height: 50px;
@@ -10,7 +15,9 @@
 }
 
 .searchBar {
-    padding: 0px;   
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 0px;
 }
 
 .searchContent {
@@ -26,6 +33,11 @@
     color: #ffffff;
     width: 100px;
     font-size: 18px;
+}
+
+.btn:focus {
+  outline: 0;
+  color: #ffffff;    
 }
 
 .searchButton:hover {

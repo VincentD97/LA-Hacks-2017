@@ -17,8 +17,8 @@
       </div>
      </nav>
 <!-- Search bar-->
-      <div class="container-fluid" style="padding-left:0px; padding-bottom:30px;">
-        <div class="col col-xs-10 col-xs-offset-1 searchBar">
+      <div class="container-fluid searchBar">
+        <div class="col col-xs-10 col-xs-offset-2 searchBar">
         <div class="col col-xs-3 searchContent">
           <div>
             <select class="form-control">
@@ -51,42 +51,19 @@
         </div>    
       </div>
 <!-- Swipe log-->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col col-xs-5 col-xs-offset-1">
-                <table class="table table-hover">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Name</th>
-                      <th>Swipe Amount</th>
-                      <th>Email</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div> 
-              <div class="col col-xs-5">
-                  <table class="table table-hover">
+            <div class="container-fluid">
+          <!-- Menu switcher -->
+          <div id="menu-switcher" class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <ul class="nav nav-tabs">
+                    <li id="buyer-switch-btn" role="presentation" class="active"><a href="#buyer-table" data-toggle="tab" class="dataTab">Buyers</a></li>
+                    <li id="seller-switch-btn" role="presentation"><a href="#seller-table" data-toggle="tab">Sellers</a></li>
+                </ul>
+            </div>
+          </div>
+        <div class="row tab-content">
+          <div id="buyer-table" class="col col-xs-8 col-xs-offset-2 tab-pane fade-in active">
+            <table class="table table-hover">
               <thead>
                 <tr>
                   <th>#</th>
@@ -116,12 +93,37 @@
                 </tr>
               </tbody>
             </table>
-          </div>     
+            </div>
+          <div id="seller-table" class="col col-xs-8 col-xs-offset-2 tab-pane fade">
+              <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Swipe Amount</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+              </tbody>
+        </table>
+      </div>
         </div>
       </div>
 <!-- Footer -->      
       <div class="container-fluid text-center">
-        <h3>Some footer stuff goes here</h3>
       </div>
 <!-- Modal for create buyer-->
       <button type="button" class="btn btn-info option" data-toggle="modal" data-target="#postBuyer" id="option">Options</button>    
