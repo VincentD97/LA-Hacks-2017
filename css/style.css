@@ -28,6 +28,65 @@ html {
     padding-right: 5px;
 }
 
+.modal-dialog{
+    width: 750px;
+    margin:0 auto;
+    display:table;
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 20%; 
+}
+
+.modal-body{
+    height: 100px;
+    padding-top: 30px;
+}
+
+.modal-title{
+    font-size: 18px;
+}
+
+#Name {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 100px;
+    padding-right: 0px;
+}
+
+#Where {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+#Time {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+#Contact {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 200px;
+    padding-right: 0px;
+}
+
+.post {
+    background-color: #fd5c63;
+    color: #ffffff;
+    border-radius: 0px;
+    border: 0;
+    font-size: 18px;
+}
+
 .searchBox {
     padding-left: 20px;
 }
@@ -57,9 +116,10 @@ html {
 }
 
 .btnDismissal {
-    background-color: #fd5c63;
+     background-color: #fd5c63;
     color: #ffffff;
-    width: 100px;
+    border-radius: 0px;
+    border: 0;
     font-size: 18px;
 }
 
@@ -83,3 +143,19 @@ html {
     font-size: 15px;
     color: #fe8187;
 }
+
+#plus-btn {
+    color: #fd5c63;
+    border: 0px solid black;
+    padding: 10px 15px;
+}
+
+#plus-btn:hover {
+    background-color: inherit;
+    color: #fe8187;
+}
+
+#plus-btn:focus {
+    background-color: inherit;
+}
+ 
