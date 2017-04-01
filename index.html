@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+<!-- Navbar -->      
+     <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+            <span class="fa fa-cutlery logo"></span>
+        </div>
+      </div>
+     </nav>
+<!-- Search bar-->
+      <div class="container-fluid searchBar">
+        <div class="col col-xs-10 col-xs-offset-2 searchBar">
+        <div class="col col-xs-3 searchContent">
+          <div>
+            <select class="form-control">
+            <option value="Default" selected="selected">Deneve</option>
+            <option value="Roboto">Rieber</option>
+            <option value="Baloo Bhaina">Hedrick</option>
+            </select>  
+          </div>  
+        </div>
+        <div class="col col-xs-3 searchContent">
+          <div class="">
+            <select class="form-control">
+            <option value="Default" selected="selected">Time</option>
+            <option value="Roboto">Time</option>
+            <option value="Baloo Bhaina">Time</option>
+            </select>  
+          </div>  
+        </div>
+        <div class="col col-xs-2 searchContent">
+          <div class="">
+            <select class="form-control">
+            <option value="Default" selected="selected">?</option>
+            <option value="Roboto">?</option>
+            <option value="Baloo Bhaina">?</option>
+            </select>  
+          </div>  
+        </div> <div class="col col-xs-1 searchBox">
+            <button class="btn form-control searchButton">search</button>
+        </div>   
+        </div>    
+      </div>
+<!-- Swipe log-->
+            <div class="container-fluid">
+          <!-- Menu switcher -->
+          <div id="menu-switcher" class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <ul class="nav nav-tabs">
+                    <li id="buyer-switch-btn" role="presentation" class="active"><a href="#buyer-table" data-toggle="tab" class="dataTab">Buyers</a></li>
+                    <li id="seller-switch-btn" role="presentation"><a href="#seller-table" data-toggle="tab">Sellers</a></li>
+                </ul>
+            </div>
+          </div>
+        <div class="row tab-content">
+          <div id="buyer-table" class="col col-xs-8 col-xs-offset-2 tab-pane fade-in active">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Swipe Amount</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          <div id="seller-table" class="col col-xs-8 col-xs-offset-2 tab-pane fade">
+              <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Swipe Amount</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+              </tbody>
+        </table>
+      </div>
+        </div>
+      </div>
+<!-- Footer -->      
+      <div class="container-fluid text-center">
+      </div>
+<!-- Modal for create buyer-->
+      <button type="button" class="btn btn-info option" data-toggle="modal" data-target="#postBuyer" id="option">Options</button>    
+      <div class="modal fade" id="postBuyer" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+                <h3>I am buyer</h3>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary save" data-dismiss="modal">Save</button>  
+            <button type="button" class="btn btn-default closes">Reset</button>
+            </div>      
+          </div>            
+        </div>
+      </div>
+<!-- Modal for create seller-->
+      <button type="button" class="btn btn-info option" data-toggle="modal" data-target="#postBuyer" id="option">Options</button>    
+      <div class="modal fade" id="postBuyer" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+                <h3>I am seller</h3>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary save" data-dismiss="modal">Save</button>  
+            <button type="button" class="btn btn-default closes">Reset</button>
+            </div>      
+          </div>            
+        </div>
+      </div>      
+<!-- scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
