@@ -16,3 +16,25 @@
 .searchContent {
     padding-right: 5px;
 }
+
+.searchBox {
+    padding-left: 20px;
+}
+
+.searchButton {
+    background-color: #fd5c63;
+    color: #ffffff;
+    width: 100px;
+    font-size: 18px;
+}
+
+.searchButton:hover {
+    background-color: #fe8187;
+    color:  #ffffff;
+    width: 100px;
+    font-size: 18px;
+}
+
+.table {
+    border: 1px solid #ddd;
+}
