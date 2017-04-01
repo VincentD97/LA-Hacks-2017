@@ -53,5 +53,33 @@ html {
 
 .table {
     border: 1px solid #ddd;
+    font-size: 18px;
 }
 
+.btnDismissal {
+    background-color: #fd5c63;
+    color: #ffffff;
+    width: 100px;
+    font-size: 18px;
+}
+
+.btnDismissal:hover {
+    background-color: #fe8187;
+    color:  #ffffff;
+    width: 100px;
+    font-size: 18px;
+}
+
+.tooltip {
+  font-size: 15px;
+}
+
+.dataTab {
+    font-size: 15px;
+    color: #000000;
+}
+
+.dataTab:hover {
+    font-size: 15px;
+    color: #fe8187;
+}
