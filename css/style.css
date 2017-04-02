@@ -1,0 +1,208 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url(../imageedit_7_3013960834.png);
+    background-position: absolute bottom;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    font-size: 40px;
+    color: #fd5c63;
+}
+
+.navbar {
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+
+.form-control {
+    border-radius: 0px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.searchBar {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.searchContent {
+    padding-right: 5px;
+}
+
+.modal-dialog{
+    width: 750px;
+    margin:0 auto;
+    display:table;
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 20%; 
+}
+
+.modal-body{
+    height: 100px;
+    padding-top: 30px;
+}
+
+.modal-title{
+    font-size: 18px;
+}
+
+.Name {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 100px;
+    padding-right: 0px;
+}
+
+.Where {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+.Time {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+#provider-contact-info {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 200px;
+    padding-right: 0px;
+}
+
+#demander-contact-info {
+	border-radius: 0px;
+	height: 40px;
+    font-size: 15px;
+    width: 200px;
+    padding-right: 0px;
+}
+
+.post {
+    background-color: #fd5c63;
+    color: #ffffff;
+    border-radius: 0px;
+    border: 0;
+    font-size: 18px;
+}
+
+.post:hover {
+    background-color: #fe8187;
+    color: #ffffff;
+    border-radius: 0px;
+    border: 0;
+    font-size: 18px;
+}
+
+.searchBox {
+    padding-left: 20px;
+}
+
+.searchButton {
+    background-color: #fd5c63;
+    color: #ffffff;
+    width: 100px;
+    font-size: 18px;
+}
+
+.btn:focus {
+  outline: 0;
+  color: #ffffff;    
+}
+
+.searchButton:hover {
+    background-color: #fe8187;
+    color:  #ffffff;
+    width: 100px;
+    font-size: 18px;
+}
+
+.table {
+    border: 1px solid #ddd;
+    font-size: 18px;
+    background: #ffffff;
+}
+
+.col1{
+    background-color: #F5F5F5;
+}
+
+.col2{
+    background-color: #F5F5F5;
+}
+
+.col3{
+    background-color: #F5F5F5;
+}
+
+.col4{
+    background-color: #F5F5F5;
+}
+
+.btnDismissal {
+     background-color: #fd5c63;
+    color: #ffffff;
+    border-radius: 0px;
+    border: 0;
+    font-size: 18px;
+}
+
+.btnDismissal:hover {
+    background-color: #fe8187;
+    color:  #ffffff;
+    font-size: 18px;
+}
+
+.tooltip {
+  font-size: 15px;
+}
+
+.dataTab {
+    font-size: 15px;
+    color: #000000;
+}
+
+.dataTab:hover {
+    font-size: 15px;
+    color: #fe8187;
+}
+
+#plus-btn {
+    color: #fd5c63;
+    border: 0px solid black;
+    padding: 10px 15px;
+}
+
+#plus-btn:hover {
+    background-color: inherit;
+    color: #fe8187;
+}
+
+#plus-btn:focus {
+    background-color: inherit;
+}
+ 
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
